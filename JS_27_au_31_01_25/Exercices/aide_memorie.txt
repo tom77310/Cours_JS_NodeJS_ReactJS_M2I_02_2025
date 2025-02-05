@@ -1,0 +1,33 @@
+// Etape 1 : Melanger les cartes
+// Etape 2 : Placer les cartes sur la table
+// Etape 3 : Choisir une carte et la retourner
+// Etape 4 : Choisir une carte et la retourner
+    // Si ce sont les mêmes cartes :
+    // elles restent retournées et on gagne un point.
+// Si elles sont différentes : on les re-cachent. 
+
+// => Retour a l'étape 3 tant qu'il reste des cartes : 
+// on arrete le jeu a 0 cartes cachées ou a 2 cartes cachées. 
+
+
+
+// Structure de données
+
+// Nombre de cartes paires : ex : 12, 196 ...
+// Système de niveau : 
+
+/*
+
+POC : Proof of concept
+
+const cartes = [{id: 1, value:1, selected : false, find: false},2,3,4,5,{id: 6, value : 1},2,3,4,5 ]
+
+const selectedCartes = [];
+
+selectedCartes.push(:id)
+
+[2,6]
+
+
+
+*/

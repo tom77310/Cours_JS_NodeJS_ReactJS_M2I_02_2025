@@ -1,0 +1,5 @@
+GET ALL (READ ALL)    /words             --> renvoi tous les mots	
+GET ONE (READ ONE)    /words/:id         --> renvoi le mot avec l'id correspondant
+POST (CREATE)        /words             --> permet d'ajouter un mot
+PUT  (UPDATE)       /words/:id         --> permet de modifier un mot
+DELETE      /words/:id         --> Supprimer un par rapport a son id
