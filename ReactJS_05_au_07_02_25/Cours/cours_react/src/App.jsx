@@ -1,6 +1,6 @@
 // import Article from './components/Article';
 // import Name from './components/Name';
-import ActorsList from './components/ActorsList';
+import ActorsList from './components/searchActors/ActorsList';
 import Menu from './components/Menu';
 import result from './result';
 
@@ -28,11 +28,11 @@ function App() {
 			</Article> */}
 			{/* exo 3 05/02/2025 */}
 			<Menu></Menu>
-
+			{/*Cours1 partie3 05/02/2025 et Cours2 partie 1 06/02/2025 */}
 			<div>
-      <h1>Acteurs et Films</h1>
-      <ActorsList />
-    </div>
+				<h1>Acteurs et Films</h1>
+				<ActorsList />
+			</div>
 		</>
 	);
 }
